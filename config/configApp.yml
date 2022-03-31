@@ -10,3 +10,6 @@ spring:
   data:
     mongodb:
       password: Fnst-1234
+
+search:
+  sub-path: config
