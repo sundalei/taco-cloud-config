@@ -9,7 +9,7 @@ eureka:
 spring:
   datasource:
     username: sa
-    password: yourStrong(!)Password
+    password: '{cipher}AQCJdFQmiIXRpdzxjzazMHZe5jHj0q2CkBwEiziKhWEeQJ4DjhKLGFYbHbVVud+egEmFl2T54lcffjMNMoQKFgTJJy2ZexLAniba3k4tgv07fWtV80yhD8ycTmGFrfvKDv44Xsatz1uZgDKGildFD7PcP99Mu6Yn/bcJ8HnhPbHS2n6g6mzV1UZlyoPoNZjFOBHBJCD6AYwpwL74X7U+q26boWD2klYDcQQGIYDh6/zVjQEqEF7Y2ww+Min2045SF3385WCc46miw0KH3F/ntvxVmh0a0oWMhJJdeZ0b/CVCCHqUUkRUopV7mZDuxYbvyv4expUmNVDOzaMjt8pdI1TzesoLS1kCoeYLTCmD9uq93vyOES+IlC3olWVMalROFk3KsGEOnHs7DCC2z/li7G7e'
     url: jdbc:sqlserver://localhost:1433;databaseName=tacocloud;
   jpa:
     hibernate:
