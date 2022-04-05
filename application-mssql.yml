@@ -24,3 +24,6 @@ management:
         include:
           - health
           - info
+
+test:
+  name: '{cipher}AQBZ33yKOaY2dCdklpNqMfsgtgF4capCnw6GrhcAcl0IHiBBAvvnthxIM9B0kn8dIJI9ihY7KEjkGziPS5Dh/s38PAZkmit9CeguBM8lCpGJZurgvbHmIFRAMKxuWMLa5brCV8eJkI3PYFRr6mM86dtoiYHYCNiq/O416+OzNcX63j7pCcKj+4+RWr9yp3UBa8dzKI2Ec3IR6BQ2ORpgEfXsFtFkO+YhDXbO84/0zLA2NuwmrFjopF7RlLVsPKx5g1co/UCpPUytnWyYTWKm6n1tzHvNC/+GtF31Loo+dYLsJY4krPCbkqGQjkz87jIlKSBcYhgYvJFB+/eQnqdFDLmbk2d47VFqpNo4kOi0HFn11vOtzdhna4ZqA6b9+6cv5FM='
