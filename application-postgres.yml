@@ -1,0 +1,25 @@
+server:
+  port: 0
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+spring:
+  datasource:
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/tacocloud;
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+# https://stackoverflow.com/questions/67893857/actuator-info-endpoint-not-working-with-spring-boot-2-5-0
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - health
+          - info
