@@ -10,8 +10,8 @@ spring:
   datasource:
     url: jdbc:mysql://localhost/tacocloud
     username: root
-    password: '{cipher}AQCDX/qIR3RjRQ5tm1fxmWuUJYw9ExpgosKd6KZLc8MzTfDg63h+W6FHcWHMxKNyENoti+NZMVtKAvc+ud4RPBnZ4CKn2tDjIfTIt1hy8SoO9pU2H7keaGLi63QkqwnvZW3YXMLjMZJdiRIZwlloTMZfXEwxBwcIGQXy56xOytPojf+Bq4H3afftbqanonCFaH91JQZz/Pn0Gwg/khmsjcZh9KekIJ+fmwjkhjd7jcbwQLqQYy/bcO9NXD5A/LsE5zKQXFJ9OiIrXYU3Y804/zSW/XoZVr6q5YWEF2OeCQZRTgzUZqevjj6dPfc3UvdAIn2wxxGUg1APB/vOFwJTCBdGfkW9iuypug3AuZQ0B8/IkK4QGokQVzoN2Mcoom5U7mU='
-
+    #password: '{cipher}AQCDX/qIR3RjRQ5tm1fxmWuUJYw9ExpgosKd6KZLc8MzTfDg63h+W6FHcWHMxKNyENoti+NZMVtKAvc+ud4RPBnZ4CKn2tDjIfTIt1hy8SoO9pU2H7keaGLi63QkqwnvZW3YXMLjMZJdiRIZwlloTMZfXEwxBwcIGQXy56xOytPojf+Bq4H3afftbqanonCFaH91JQZz/Pn0Gwg/khmsjcZh9KekIJ+fmwjkhjd7jcbwQLqQYy/bcO9NXD5A/LsE5zKQXFJ9OiIrXYU3Y804/zSW/XoZVr6q5YWEF2OeCQZRTgzUZqevjj6dPfc3UvdAIn2wxxGUg1APB/vOFwJTCBdGfkW9iuypug3AuZQ0B8/IkK4QGokQVzoN2Mcoom5U7mU='
+    password: mypassword
   jpa:
     hibernate:
       ddl-auto: update
@@ -22,6 +22,4 @@ management:
   endpoints:
     web:
       exposure:
-        include:
-          - health
-          - info
+        include: '*'
